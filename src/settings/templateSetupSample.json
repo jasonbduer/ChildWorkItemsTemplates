@@ -1,0 +1,213 @@
+{
+  "version": 2,
+  "templates": [
+    {
+      "name": "Dev Activity",
+      "tasks": [
+        {
+          "name": "Code Review",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Code Review"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ]
+        },
+        {
+          "name": "Dev Analysis and Development",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Dev Analysis and Development"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QE Activity",
+      "tasks": [
+        {
+          "name": "PO Playback",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "PO Playback"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Testing"
+            }
+          ]
+        },
+        {
+          "name": "QE Test Case Creation",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "QE Test Case Creation"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Testing"
+            }
+          ]
+        },
+        {
+          "name": "QE Validation",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "QE Validation"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Testing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Documentation Activity",
+      "tasks": [
+        {
+          "name": "Dev Documentation",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Documentation Activity"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Documentation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design Activity",
+      "tasks": [
+        {
+          "name": "Analysis/Design",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Analysis/Design"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Design"
+            }
+          ]
+        },
+        {
+          "name": "Solution Architect Review",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Solution Architect Review"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Design"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
