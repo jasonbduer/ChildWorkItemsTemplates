@@ -1,20 +1,33 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Child Tasks Template Azure DevOps extension
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+[![Build Status](https://dev.azure.com/fiveforty/DevOps/_apis/build/status/ChildTaskTemplate?branchName=master)](https://dev.azure.com/fiveforty/DevOps/_build/latest?definitionId=17&branchName=master)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+This project generates an [Azure DevOps extension](https://docs.microsoft.com/en-us/azure/devops/extend/overview?view=vsts).
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Version 2.0 schema change
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+The schema has been changed to enable multiple template support. See [Schema sample](src/settings/templateSetupSample.json)
+
+## Dependencies
+
+The project depends on a few Azure DevOps packages:
+
+- [azure-devops-extension-sdk](https://github.com/Microsoft/azure-devops-extension-sdk): Required module for Azure DevOps extensions which allows communication between the host page and the extension iframe.
+- [azure-devops-extension-api](https://github.com/Microsoft/azure-devops-extension-api): Contains REST client libraries for the various Azure DevOps feature areas.
+
+Some external dependencies:
+
+- `TypeScript` - Samples are written in TypeScript and complied to JavaScript
+- `webpack` - Is used to gather dependencies into a single javascript bundle for each sample.
+
+## Building the project
+
+Just run:
+
+    npm run build
+
+This produces a .vsix file which can be uploaded to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/azuredevops)
+
+## Documentation
+
+[Details](content_details.md)

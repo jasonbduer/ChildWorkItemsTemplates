@@ -1,0 +1,21 @@
+{
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "powershell.codeFormatting.addWhitespaceAroundPipe": true,
+    "prettier.tabWidth": 4,
+    "npm-scripts.showStartNotification": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "html.format.endWithNewline": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.templating": true,
+    "html.format.wrapAttributesIndentSize": 8,
+    "eslint.format.enable": true,
+    "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+    "workbench.sash.size": 8
+}

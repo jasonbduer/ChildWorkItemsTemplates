@@ -1,0 +1,74 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"incremental": false,
+		"sourceMap": true,
+		"charset": "utf8",
+		"resolveJsonModule": true,
+		"target": "es5",
+		"declaration": false,
+		"rootDir": "src/",
+		"baseUrl": ".",
+		"outDir": "dist/",
+		"experimentalDecorators": true,
+		"module": "amd",
+		"moduleResolution": "node",
+		"strict": true,
+		"strictNullChecks": true, //
+		"pretty": true,
+		"noImplicitAny": true, //
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitThis": true,
+		"checkJs": false,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"preserveConstEnums": true,
+		"allowJs": false,
+		"noEmitOnError": true,
+		"noEmit": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"removeComments": false, // Needed for WebPack
+		"emitDecoratorMetadata": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"alwaysStrict": true,
+		"noStrictGenericChecks": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"disableSizeLimit": true,
+		"forceConsistentCasingInFileNames": true,
+		"watch": false,
+		"jsx": "react",
+		"typeRoots": [
+			"./node_modules/@types",
+			"./src/@types"
+		],
+		"types": [
+			"react",
+			"jest",
+			"node"
+		],
+		"lib": [
+			"es5",
+			"es6",
+			"dom",
+			"ES2015",
+			"ES2016",
+			"ES2017",
+			"ES2018",
+			"ES2019",
+			"ES2020",
+			"ESNext",
+			"ES2020.Promise"
+		]
+	},
+	"exclude": [
+		"**/node_modules",
+		"**/.*/",
+		"dist"
+	],
+}
