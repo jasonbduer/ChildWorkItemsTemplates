@@ -188,7 +188,7 @@
       "name": "PO Playback",
       "tasks": [
         {
-          "name": "SPO Playback",
+          "name": "PO Playback",
           "fields": [
             {
               "name": "System.Title",
