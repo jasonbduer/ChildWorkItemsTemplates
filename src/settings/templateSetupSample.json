@@ -56,31 +56,6 @@
       "name": "QE Activity",
       "tasks": [
         {
-          "name": "PO Playback",
-          "fields": [
-            {
-              "name": "System.Title",
-              "value": "PO Playback"
-            },
-            {
-              "name": "System.IterationPath",
-              "value": "{System.IterationPath}"
-            },
-            {
-              "name": "System.AreaPath",
-              "value": "{System.AreaPath}"
-            },
-            {
-              "name": "Microsoft.VSTS.Common.Priority",
-              "value": "{Microsoft.VSTS.Common.Priority}"
-            },
-            {
-              "name": "Microsoft.VSTS.Common.Activity",
-              "value": "Testing"
-            }
-          ]
-        },
-        {
           "name": "QE Test Case Creation",
           "fields": [
             {
@@ -188,6 +163,36 @@
             {
               "name": "System.Title",
               "value": "Solution Architect Review"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PO Playback",
+      "tasks": [
+        {
+          "name": "SPO Playback",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "PO Playback"
             },
             {
               "name": "System.IterationPath",
