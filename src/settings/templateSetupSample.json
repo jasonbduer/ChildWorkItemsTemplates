@@ -28,7 +28,7 @@
               "value": "Development"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         },
         {
           "name": "Dev Analysis and Development",
@@ -50,7 +50,7 @@
               "value": "Development"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         }
       ]
     },
@@ -77,7 +77,7 @@
               "value": "Testing"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         },
         {
           "name": "QE Validation",
@@ -99,7 +99,7 @@
               "value": "Testing"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         }
       ]
     },
@@ -130,7 +130,7 @@
               "value": "Documentation"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         }
       ]
     },
@@ -161,7 +161,7 @@
               "value": "Design"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         },
         {
           "name": "Solution Architect Review",
@@ -187,7 +187,7 @@
               "value": "Design"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         }
       ]
     },
@@ -218,7 +218,7 @@
               "value": "Design"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         }
       ]
     },
@@ -253,7 +253,7 @@
               "value": "Development"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         },
         {
           "name": "Dev Coding",
@@ -283,7 +283,7 @@
               "value": "Development"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         },
         {
           "name": "Deploy to tst-c",
@@ -317,7 +317,7 @@
               "value": "Development"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         },
         {
           "name": "QA/UX Handoff",
@@ -351,12 +351,39 @@
               "value": "Development"
             }
           ],
-          "type": "Product Backlog Item"
+          "type": "Task"
         }
       ]
     },
     {
       "name": "Test This Functionality: Data Delivery POC",
+      "tasks": [
+        {
+          "name": "Business User (UAT)",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Business User (UAT)"
+            },
+            {
+              "name": "Desciption",
+              "value": "Business User Acceptence Testing to be completed"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Task"
+        }
+      ]
+    },
+    {
+      "name": "Test This Test PBI template",
       "tasks": [
         {
           "name": "Business User (UAT)",
