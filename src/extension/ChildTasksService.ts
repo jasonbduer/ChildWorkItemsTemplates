@@ -96,7 +96,7 @@ export class ChildTasksService {
                     const workItem = await client.createWorkItem(
                         patch as JsonPatchDocument,
                         context.currentProjectGuid,
-                        "Task"
+                        "Product Backlog Item"
                     )
                     console.info("Created task " + workItem.id)
                 }
