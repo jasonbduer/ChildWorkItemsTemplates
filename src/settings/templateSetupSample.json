@@ -27,7 +27,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Development"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
         },
         {
           "name": "Dev Analysis and Development",
@@ -48,7 +49,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Development"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
         }
       ]
     },
@@ -74,7 +76,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Testing"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
         },
         {
           "name": "QE Validation",
@@ -95,7 +98,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Testing"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
         }
       ]
     },
@@ -125,7 +129,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Documentation"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
         }
       ]
     },
@@ -155,7 +160,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Design"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
         },
         {
           "name": "Solution Architect Review",
@@ -180,7 +186,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Design"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
         }
       ]
     },
@@ -210,7 +217,168 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Design"
             }
-          ]
+          ],
+          "type": "Product Backlog Item"
+        }
+      ]
+    },
+    {
+      "name": "SDMO Retail Dev Tasks",
+      "tasks": [
+        {
+          "name": "Dev Analysis",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Dev Analysis"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "8"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "8"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "Dev Coding",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Dev Coding"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "24"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "24"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "Deploy to tst-c",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Deploy to tst-c"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "1"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "1"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "QA/UX Handoff",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "QA/UX Handoff"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "1"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "1"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Product Backlog Item"
+        }
+      ]
+    },
+    {
+      "name": "Test This Functionality: Data Delivery POC",
+      "tasks": [
+        {
+          "name": "Business User (UAT)",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Business User (UAT)"
+            },
+            {
+              "name": "Desciption",
+              "value": "Business User Acceptence Testing to be completed"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Product Backlog Item"
         }
       ]
     }
