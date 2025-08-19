@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
 	"id": "ChildTasksTemplate",
-	"version": "3.0.00",
+	"version": "3.0.01",
 	"name": "Child Tasks Template",
 	"public": false,
 	"publisher": "JasonBDuer",
