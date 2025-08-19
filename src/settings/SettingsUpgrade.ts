@@ -12,7 +12,7 @@ export class SettingsUpgrade {
         }
         let version = obj["version"] as number;
         if (version === undefined || version < SettingsUpgrade.currentVersion) {
-            let tasks: Task[] = obj["Product Backlog Item"];
+            let tasks: Task[] = obj["tasks"];
             const template: Template = { name: "default", tasks: tasks };
             const setup: TemplateSetup = { version: this.currentVersion, templates:[template] };
             return setup;
