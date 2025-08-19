@@ -366,16 +366,16 @@
               "value": "Business User (UAT)"
             },
             {
-              "name": "Desciption",
-              "value": "Business User Acceptence Testing to be completed"
-            },
-            {
               "name": "System.IterationPath",
               "value": "{System.IterationPath}"
             },
             {
               "name": "System.AreaPath",
               "value": "{System.AreaPath}"
+            },
+            {
+              "name": "System.Description",
+              "value": "Business User Acceptence Testing to be completed"
             }
           ],
           "type": "Task"
@@ -383,18 +383,14 @@
       ]
     },
     {
-      "name": "Test This Test PBI template",
+      "name": "PBI Group example",
       "tasks": [
         {
-          "name": "Business User (UAT)",
+          "name": "Enhancements Group",
           "fields": [
             {
               "name": "System.Title",
-              "value": "Business User (UAT)"
-            },
-            {
-              "name": "Desciption",
-              "value": "Business User Acceptence Testing to be completed"
+              "value": "Enhancement A"
             },
             {
               "name": "System.IterationPath",
@@ -406,6 +402,131 @@
             }
           ],
           "type": "Product Backlog Item"
+        },
+        {
+          "name": "Enhancement B",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement B"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "Enhancement C",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement C"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "Enhancement D",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement D"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            }
+          ],
+          "type": "Product Backlog Item"
+        }
+      ]
+    },
+    {
+      "name": "Feature Group example",
+      "tasks": [
+        {
+          "name": "Feature A",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Feature A"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Feature"
+        },
+        {
+          "name": "Feature B",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement B"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Feature"
+        },
+        {
+          "name": "Feature C",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement C"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            }
+          ],
+          "type": "Feature"
         }
       ]
     }
