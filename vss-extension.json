@@ -1,8 +1,8 @@
 {
 	"manifestVersion": 1,
-	"id": "ChildTasksTemplate",
-	"version": "2.0.11",
-	"name": "Child Tasks Template",
+	"id": "ChildTasksTemplate2",
+	"version": "2.0.12",
+	"name": "Child Tasks Template2",
 	"public": false,
 	"publisher": "JasonBDuer",
 	"description": "This extension enables creating user story or bug child tasks from a template.",
