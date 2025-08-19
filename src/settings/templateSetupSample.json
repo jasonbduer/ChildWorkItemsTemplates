@@ -27,7 +27,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Development"
             }
-          ]
+          ],
+          "type": "Task"
         },
         {
           "name": "Dev Analysis and Development",
@@ -48,7 +49,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Development"
             }
-          ]
+          ],
+          "type": "Task"
         }
       ]
     },
@@ -74,7 +76,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Testing"
             }
-          ]
+          ],
+          "type": "Task"
         },
         {
           "name": "QE Validation",
@@ -95,7 +98,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Testing"
             }
-          ]
+          ],
+          "type": "Task"
         }
       ]
     },
@@ -125,7 +129,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Documentation"
             }
-          ]
+          ],
+          "type": "Task"
         }
       ]
     },
@@ -155,7 +160,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Design"
             }
-          ]
+          ],
+          "type": "Task"
         },
         {
           "name": "Solution Architect Review",
@@ -180,7 +186,8 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Design"
             }
-          ]
+          ],
+          "type": "Task"
         }
       ]
     },
@@ -210,7 +217,316 @@
               "name": "Microsoft.VSTS.Common.Activity",
               "value": "Design"
             }
-          ]
+          ],
+          "type": "Task"
+        }
+      ]
+    },
+    {
+      "name": "SDMO Retail Dev Tasks",
+      "tasks": [
+        {
+          "name": "Dev Analysis",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Dev Analysis"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "8"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "8"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Task"
+        },
+        {
+          "name": "Dev Coding",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Dev Coding"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "24"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "24"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Task"
+        },
+        {
+          "name": "Deploy to tst-c",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Deploy to tst-c"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "1"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "1"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Task"
+        },
+        {
+          "name": "QA/UX Handoff",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "QA/UX Handoff"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.OriginalEstimate",
+              "value": "1"
+            },
+            {
+              "name": "Microsoft.VSTS.Scheduling.RemainingWork",
+              "value": "1"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Activity",
+              "value": "Development"
+            }
+          ],
+          "type": "Task"
+        }
+      ]
+    },
+    {
+      "name": "Test This Functionality: Data Delivery POC",
+      "tasks": [
+        {
+          "name": "Business User (UAT)",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Business User (UAT)"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "System.Description",
+              "value": "Business User Acceptence Testing to be completed"
+            }
+          ],
+          "type": "Task"
+        }
+      ]
+    },
+    {
+      "name": "PBI Group example",
+      "tasks": [
+        {
+          "name": "Enhancements Group",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement A"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "Enhancement B",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement B"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "Enhancement C",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement C"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            }
+          ],
+          "type": "Product Backlog Item"
+        },
+        {
+          "name": "Enhancement D",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement D"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            }
+          ],
+          "type": "Product Backlog Item"
+        }
+      ]
+    },
+    {
+      "name": "Feature Group example",
+      "tasks": [
+        {
+          "name": "Feature A",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Feature A"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Feature"
+        },
+        {
+          "name": "Feature B",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement B"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            }
+          ],
+          "type": "Feature"
+        },
+        {
+          "name": "Feature C",
+          "fields": [
+            {
+              "name": "System.Title",
+              "value": "Enhancement C"
+            },
+            {
+              "name": "System.IterationPath",
+              "value": "{System.IterationPath}"
+            },
+            {
+              "name": "System.AreaPath",
+              "value": "{System.AreaPath}"
+            },
+            {
+              "name": "Microsoft.VSTS.Common.Priority",
+              "value": "{Microsoft.VSTS.Common.Priority}"
+            }
+          ],
+          "type": "Feature"
         }
       ]
     }

@@ -1,12 +1,16 @@
 # Child Tasks Template Azure DevOps extension
 
-[![Build Status](https://dev.azure.com/fiveforty/DevOps/_apis/build/status/ChildTaskTemplate?branchName=master)](https://dev.azure.com/fiveforty/DevOps/_build/latest?definitionId=17&branchName=master)
+[![Pipeline Status](https://dev.azure.com/BECU/HUB/_build?definitionId=5605)
 
 This project generates an [Azure DevOps extension](https://docs.microsoft.com/en-us/azure/devops/extend/overview?view=vsts).
 
 ## Version 2.0 schema change
 
 The schema has been changed to enable multiple template support. See [Schema sample](src/settings/templateSetupSample.json)
+
+## Version 3.0 schema change
+
+The schema has been changed to enable multiple workitems types. See [Schema sample](src/settings/templateSetupSample.json)
 
 ## Dependencies
 
