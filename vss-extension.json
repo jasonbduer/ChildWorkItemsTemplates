@@ -3,7 +3,7 @@
 	"id": "WorkItemTemplates",
 	"version": "3.0.5",
 	"name": "Work Item Templates",
-	"public": false,
+	"public": true,
 	"publisher": "JasonBDuer",
 	"description": "This extension enables creating child work item Templates for any type of work item defined in template",
 	"targets": [
