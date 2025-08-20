@@ -1,9 +1,9 @@
 {
 	"manifestVersion": 1,
-	"id": "ChildTasksTemplate",
+	"id": "ChildTasksTemplates",
 	"version": "3.0.2",
-	"name": "Child Tasks Template",
-	"public": false,
+	"name": "Child Tasks Templates",
+	"public": true,
 	"publisher": "JasonBDuer",
 	"description": "This extension enables creating user story or bug child tasks from a template.",
 	"targets": [
@@ -85,19 +85,19 @@
 	],
 	"links": {
 		"support": {
-			"uri": "mailto:jason.duer@becu.org"
+			"uri": "mailto:jason.b.duer@gmail.com"
 		},
 		"home": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildTasksWITsupport"
 		},
 		"getstarted": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildTasksWITsupport"
 		},
 		"learn": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildTasksWITsupport"
 		},
 		"repository": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildTasksWITsupport"
 		},
 		"issues": {
 			"uri": "https://github.com/jpiquot/ChildTasksTemplate/issues"
@@ -110,7 +110,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"uri": "https://github.com/jpiquot/ChildTasksTemplate.git"
+		"uri": "https://github.com/jasonbduer/ChildTasksWITsupport.git"
 	},
 	"screenshots": [
 		{
