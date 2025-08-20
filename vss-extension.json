@@ -52,8 +52,8 @@
 				"ms.vss-work-web.backlog-item-menu"
 			],
 			"properties": {
-				"text": "Add tasks",
-				"toolbarText": "Add tasks",
+				"text": "Add Work Item",
+				"toolbarText": "Add Work Item",
 				"title": "Creates child work items from the defined template.",
 				"uri": "dist/extension.html"
 			}
@@ -71,7 +71,7 @@
 				"ms.vss-features.host-dialog-service"
 			],
 			"properties": {
-				"name": "Child Tasks Template",
+				"name": "Child Work Item Template",
 				"uri": "dist/settings.html",
 				"supportsMobile": true
 			}
