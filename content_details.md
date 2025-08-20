@@ -29,7 +29,7 @@ There are two things to know to be comfortable using this extension.
 
 Go in the extension setup, which is per project. As you can see below, you have a "JSON" file to determine this. The easiest way is to copy a section and dubplate it and then modify it. In the Azure DevOps Json editor, on the header bar, you can click on "Tree" or "Text". Go to the Text mode and you can copy and paste values, to add Child items to the template.
 
-![setup_screen.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/main/doc/project_setup.png)
+![setup_screen.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/7a2e20d18ce4fd5c7c7b0ac7dfb701319cb2aeda/doc/project_setup.png)
 
   
 
@@ -91,7 +91,7 @@ Example json format of a single section that creates 2 tasks
 ```
   
 in this example the above shows up as Dev Activity template
-![image.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/main/doc/SelectTemp.png)
+![image.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/7a2e20d18ce4fd5c7c7b0ac7dfb701319cb2aeda/doc/SelectTemp.png)
 
 and create 2 Task child work items titled
 1.Code Review
@@ -592,11 +592,11 @@ Custom.OtherReference
   
 
 When you are on a work item, just go in the options and click on add tasks as below.
-![image.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/main/doc/AddTasks.png)
+![image.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/7a2e20d18ce4fd5c7c7b0ac7dfb701319cb2aeda/doc/AddTasks.png)
 
 then select as many templates you wish to apply, please note that templates could be a set any number of work items and types so insure your select the Template of child items appropriately to its parent child hierarchy
 
-![image.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/main/doc/SelectTemp.png)
+![image.png](https://github.com/jasonbduer/ChildTasksWITsupport/blob/7a2e20d18ce4fd5c7c7b0ac7dfb701319cb2aeda/doc/SelectTemp.png)
 you should then see your Child items linked to the Parent work item
 
   
