@@ -1,7 +1,5 @@
 # Child Tasks Template Azure DevOps extension
 
-[![Pipeline Status](https://dev.azure.com/BECU/HUB/_build?definitionId=5605)
-
 This project generates an [Azure DevOps extension](https://docs.microsoft.com/en-us/azure/devops/extend/overview?view=vsts).
 
 ## Version 2.0 schema change
