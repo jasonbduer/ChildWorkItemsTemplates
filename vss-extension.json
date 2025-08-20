@@ -3,7 +3,7 @@
 	"id": "Work Item Templates",
 	"version": "3.0.2",
 	"name": "Work Item  Templates",
-	"public": true,
+	"public": false,
 	"publisher": "JasonBDuer",
 	"description": "This extension enables creating Templates for any type of work item defined.",
 	"targets": [
