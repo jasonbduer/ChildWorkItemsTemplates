@@ -9,7 +9,7 @@ import { TemplateSetup } from "./TemplateSetup"
 export class SettingsData {
     /** Key that is used to store the child tasks template field. */
     public static readonly CHILD_TASKS_TEMPLATE =
-        "becu-child-tasks-template";
+        "wit-child-tasks-template";
 
     private readonly projectId: string
     private dataService: IExtensionDataManager
