@@ -1,4 +1,4 @@
-Extension has been customized to support any child work item type ( TASK, BUT, PBI, FEATURES) by calling out the type in the config of the template
+Extension has been customized to support any child work item type of any type (Features, PBI, Tasks, Bugs, test Suites, Test Cases)  by calling out the type in the config of the template
 
 
 # Create linked sub tasks to your parent work item 
