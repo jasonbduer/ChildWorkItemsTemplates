@@ -1,11 +1,11 @@
 {
 	"manifestVersion": 1,
-	"id": "Work Item Templates",
+	"id": "WorkItemTemplates",
 	"version": "3.0.3",
 	"name": "Work Item Templates",
 	"public": false,
 	"publisher": "JasonBDuer",
-	"description": "This extension enables creating Templates for any type of work item defined.",
+	"description": "This extension enables creating child work item Templates for any type of work item defined in template",
 	"targets": [
 		{
 			"id": "Microsoft.VisualStudio.Services"
