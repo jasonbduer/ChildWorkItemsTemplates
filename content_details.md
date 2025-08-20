@@ -102,7 +102,8 @@ and activity types defined and inherits the parent work items iteration and area
 Note: You can setup parent fields in the sub tasks like the area and iteration paths. By this way, when the system will generate the sub-tasks, you will be able to use "parent task" variables, like the original title, ID, url ... In the value field, as in the sample, when you specify a field, it will be the parent's value.
 
 #### Adding fields to template:
-list of available fields for each work item below you must use the systems ReferenceName for the name value ex: Microsoft.VSTS.Common.Activity
+list of available fields for each work item below you must use the systems ReferenceName for the name value ex:
+Microsoft.VSTS.Common.Activity
 System.AreaPath
 Custom.OtherReference
 
