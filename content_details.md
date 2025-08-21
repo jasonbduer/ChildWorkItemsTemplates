@@ -114,11 +114,11 @@ Custom.OtherReference
 
 When you are on a work item, just go in the options and click on add tasks as below.
 
-![image.png](doc/AddTasks.png)
+![AddTasks.png](doc/AddTasks.png)
 
 then select as many templates you wish to apply, please note that templates could be a set any number of work items and types so insure your select the Template of child items appropriately to its parent child hierarchy
 
-![image.png](doc/SelectTemp.png)
+![SelectTemp.png](doc/SelectTemp.png)
 
 you should then see your Child items linked to the Parent work item
 
