@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
 	"id": "WorkItemTemplates",
-	"version": "3.0.5",
+	"version": "3.0.6",
 	"name": "Work Item Templates",
 	"public": true,
 	"publisher": "JasonBDuer",
