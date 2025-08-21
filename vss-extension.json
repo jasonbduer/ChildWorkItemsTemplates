@@ -1,11 +1,11 @@
 {
 	"manifestVersion": 1,
-	"id": "ChildTasksTemplate",
-	"version": "3.0.2",
-	"name": "Child Tasks Template",
-	"public": false,
+	"id": "WorkItemTemplates",
+	"version": "3.0.6",
+	"name": "Work Item Templates",
+	"public": true,
 	"publisher": "JasonBDuer",
-	"description": "This extension enables creating user story or bug child tasks from a template.",
+	"description": "This extension enables creating child work item Templates for any type of work item defined in template",
 	"targets": [
 		{
 			"id": "Microsoft.VisualStudio.Services"
@@ -44,7 +44,7 @@
 		{
 			"id": "child-tasks-template-action",
 			"type": "ms.vss-web.action",
-			"description": "Add child tasks from the template defined in the project settings.",
+			"description": "Add child work items from the template defined in the project settings.",
 			"targets": [
 				"ms.vss-work-web.work-item-context-menu",
 				"ms.vss-work-web.query-result-work-item-menu",
@@ -52,9 +52,9 @@
 				"ms.vss-work-web.backlog-item-menu"
 			],
 			"properties": {
-				"text": "Add tasks",
-				"toolbarText": "Add tasks",
-				"title": "Creates child tasks from the defined template.",
+				"text": "Add Work Item",
+				"toolbarText": "Add Work Item",
+				"title": "Creates child work items from the defined template.",
 				"uri": "dist/extension.html"
 			}
 		},
@@ -71,7 +71,7 @@
 				"ms.vss-features.host-dialog-service"
 			],
 			"properties": {
-				"name": "Child Tasks Template",
+				"name": "Child Work Item Template",
 				"uri": "dist/settings.html",
 				"supportsMobile": true
 			}
@@ -85,22 +85,22 @@
 	],
 	"links": {
 		"support": {
-			"uri": "mailto:jason.duer@becu.org"
+			"uri": "mailto:jason.b.duer@gmail.com"
 		},
 		"home": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates"
 		},
 		"getstarted": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates"
 		},
 		"learn": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates"
 		},
 		"repository": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate"
+			"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates"
 		},
 		"issues": {
-			"uri": "https://github.com/jpiquot/ChildTasksTemplate/issues"
+			"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates/issues"
 		}
 	},
 	"tags": [
@@ -110,7 +110,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"uri": "https://github.com/jpiquot/ChildTasksTemplate.git"
+		"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates.git"
 	},
 	"screenshots": [
 		{
