@@ -1,11 +1,11 @@
 {
 	"manifestVersion": 1,
 	"id": "WorkItemTemplates",
-	"version": "3.0.6",
+	"version": "3.0.21",
 	"name": "Work Item Templates",
 	"public": true,
 	"publisher": "JasonBDuer",
-	"description": "This extension enables creating child work item Templates for any type of work item defined in template",
+	"description": "This extension enables creating user story or bug child tasks from a template.",
 	"targets": [
 		{
 			"id": "Microsoft.VisualStudio.Services"
@@ -44,7 +44,7 @@
 		{
 			"id": "child-tasks-template-action",
 			"type": "ms.vss-web.action",
-			"description": "Add child work items from the template defined in the project settings.",
+			"description": "Add child tasks from the template defined in the project settings.",
 			"targets": [
 				"ms.vss-work-web.work-item-context-menu",
 				"ms.vss-work-web.query-result-work-item-menu",
@@ -52,9 +52,9 @@
 				"ms.vss-work-web.backlog-item-menu"
 			],
 			"properties": {
-				"text": "Add Work Item",
-				"toolbarText": "Add Work Item",
-				"title": "Creates child work items from the defined template.",
+				"text": "Add tasks",
+				"toolbarText": "Add tasks",
+				"title": "Creates child tasks from the defined template.",
 				"uri": "dist/extension.html"
 			}
 		},
@@ -71,7 +71,7 @@
 				"ms.vss-features.host-dialog-service"
 			],
 			"properties": {
-				"name": "Child Work Item Template",
+				"name": "Child Tasks Template",
 				"uri": "dist/settings.html",
 				"supportsMobile": true
 			}
@@ -85,7 +85,7 @@
 	],
 	"links": {
 		"support": {
-			"uri": "mailto:jason.b.duer@gmail.com"
+			"uri": "mailto:jason.duer@becu.org"
 		},
 		"home": {
 			"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates"
@@ -111,13 +111,5 @@
 	"repository": {
 		"type": "git",
 		"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates.git"
-	},
-	"screenshots": [
-		{
-			"path": "dist/doc/setup_screen.png"
-		},
-		{
-			"path": "dist/doc/add_child_tasks_screen.png"
-		}
-	]
+	}
 }
