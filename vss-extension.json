@@ -1,11 +1,11 @@
 {
 	"manifestVersion": 1,
 	"id": "WorkItemTemplates",
-	"version": "3.0.21",
+	"version": "3.0.23",
 	"name": "Work Item Templates",
 	"public": true,
 	"publisher": "JasonBDuer",
-	"description": "This extension enables creating user story or bug child tasks from a template.",
+	"description": "This extension enables creating any type of child work items template defined in the template.(Tasks,Bugs,User Story, Product backlog item, Feature, Custom WIT's etc..)",
 	"targets": [
 		{
 			"id": "Microsoft.VisualStudio.Services"
@@ -44,7 +44,7 @@
 		{
 			"id": "child-tasks-template-action",
 			"type": "ms.vss-web.action",
-			"description": "Add child tasks from the template defined in the project settings.",
+			"description": "Add child work items from the template defined in the project settings.",
 			"targets": [
 				"ms.vss-work-web.work-item-context-menu",
 				"ms.vss-work-web.query-result-work-item-menu",
@@ -85,7 +85,7 @@
 	],
 	"links": {
 		"support": {
-			"uri": "mailto:jason.b.duer@gmail.com"
+			"uri": "mailto:mailto:jason.b.duer@gmail.com"
 		},
 		"home": {
 			"uri": "https://github.com/jasonbduer/ChildWorkItemsTemplates"
